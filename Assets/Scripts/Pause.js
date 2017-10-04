@@ -1,6 +1,6 @@
 ﻿var isPaused:boolean=false;
 var mouseLook:MouseLook;
-var clock:Clock;
+/*var clock:Clock;*/
 var raycaster:Raycaster;
 var books:Book[];
 var sound:AudioClip;
@@ -29,7 +29,7 @@ function Update () {
 function Pause(){
 	isPaused=true;
 	mouseLook.enabled=false;
-	clock.canTick=false;
+	/*clock.canTick=false;*/
 	raycaster.canRaycast=false;
 	for(var i=0;i<books.Length;i++){
 		books[i].canClose=false;
@@ -43,7 +43,7 @@ function Pause(){
 function unPause(){
 	isPaused=false;
 	mouseLook.enabled=true;
-	clock.canTick=true;
+	/*clock.canTick=true;*/
 	raycaster.canRaycast=true;
 	for(var j=0;j<books.Length;j++){
 		books[j].canClose=true;
