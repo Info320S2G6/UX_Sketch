@@ -1,4 +1,4 @@
-﻿var batteryNumber:int=0;
+/*﻿var batteryNumber:int=0;
 var theClock:GameObject;
 var theInventory:Inventory;
 var battery1:GameObject;
@@ -17,3 +17,4 @@ function Activate() {
 		GetComponent.<AudioSource>().Play();
 	}	
 }
+*/
