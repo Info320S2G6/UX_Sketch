@@ -1,4 +1,4 @@
-﻿var currentTime:float;//The players time in seconds
+/*﻿var currentTime:float;//The players time in seconds
 
 var seconds:float;
 var minutes:float;
@@ -59,3 +59,4 @@ function ClockChange(){
 		}
 	}
 }
+*/
