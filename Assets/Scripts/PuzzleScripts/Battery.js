@@ -1,4 +1,4 @@
-﻿var inventoryScript:Inventory;
+/*﻿var inventoryScript:Inventory;
 var batteryNumber:int=1;
 
 function Activate () {
@@ -8,3 +8,4 @@ function Activate () {
 	Destroy(transform.Find("SelectGUI").gameObject);
 	GetComponent.<AudioSource>().Play();
 }
+*/
