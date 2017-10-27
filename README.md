@@ -1,5 +1,7 @@
 # UX_Sketch
-Escape Room V1
+Escape Room
+
+Unity and Libraries version used: 2017.1.1f1
 
 Welcome to the Escape Room!
 
